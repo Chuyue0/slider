@@ -1,0 +1,14 @@
+*{ padding: 0; margin: 0; text-decoration: none;}
+ul,ol{list-style: none;}
+img{ display: block;}
+#box{width: 1226px; height: 460px; margin:140px auto 0; position: relative;}
+#box ul li{ position: absolute; left: 0; top: 0; display: none;}
+#box ol{ position: absolute; right: 10px; bottom: 10px; z-index: 2;}
+#box ol li{ float: left; width: 34px; line-height: 25px; background: rgba(0,0,0,0.3); border: 1px solid #fff; text-align: center; color:#fff; margin: 0 5px; cursor: pointer;}
+#left,#right{ width: 41px; height: 69px; background: url(xiaomipic/arr.png) no-repeat; position: absolute;top: 50%; margin-top: -35px;} 
+#left{background-position: -84px 0; left: 235px;}
+#left:hover{ background-position: left 0;}
+#right{ background-position: right 0; right:0;}
+#right:hover{ background-position: -42px 0;}
+#box ol li.on{background: rgba(0,0,0,0.8);}
+.menu{ width: 235px; height: 460px; background: rgba(0,0,0,0.5); position: absolute; left:0; top:0; z-index: 2;}
